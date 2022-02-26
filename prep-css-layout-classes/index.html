@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+   body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {max-width: 992px; margin: auto;
+
+    }
+
+    .row {width: 100%; display: flex;}
+
+    }
+
+    .column {flex-basis:calc(100%/3);padding-left: 8px; padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Indiana Jones</h3>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/crusade.jpg">
+        <h2>The Last Crusade</h2><p>With his companions Willie Scott and Short Round, Indiana Jones is on the run when their group stumbles across a
+  village in the depths of India with an alarming mystery. After the theft of their sacred Sankara stone, the village’s children
+  were kidnapped. Indy decides to set out to rescue them along with the sacred stone, following clues deep within a temple
+  that hides more terrors than simple booby traps.</p>
+      </div>
+      <div class="Column">
+        <img src="images/raiders.jpg">
+        <h2>Raiders of The Last Ark</h2>
+        <p>The year is 1936 and the intrepid archaeologist Indiana Jones sets out in search of the fabled Lost Ark of the Covenant,
+  racing a bitter rival and his Nazi cohorts to the prize. Over the course of a hair-raising adventure, Indy endures
+  explosions, spiders, snakes, booby traps, and bad guys in his quest to save the holy relic.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg">
+        <h2>Temple of Doom</h2>
+        <p>When Indiana Jones discovers that his father has gone missing, the archaeologist soon finds himself on an adventure to
+  find the legendary Holy Grail. Disagreeable yet loving of each other, Indy and his dad set out together to evade a
+  deadly opponent and his Nazi henchmen and perhaps recover one of history’s greatest secrets.</p> </div>
+
+</body>
+</html>
